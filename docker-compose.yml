@@ -1,22 +1,40 @@
-version: '3.4'
+version: "3.8"
+
 services:
-  jorani:
-    build: .
+  backend:
+    build: ./backend
     ports:
-      - "80:80"
-    environment:
-      - MYSQL_HOST=mysql
-      - MYSQL_DATABASE=jorani
-      - MYSQL_USER=jorani
-      - MYSQL_PASSWORD=jorani
-  mysql:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/.env:/var/www/html/.env
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./frontend/.env
+    volumes:
+      - ./frontend/.env:/app/.env
+    depends_on:
+      - backend
+
+  db:
     image: mysql:8
+    restart: unless-stopped
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=jorani
-      - MYSQL_DATABASE=jorani
-      - MYSQL_USER=jorani
-      - MYSQL_PASSWORD=jorani
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
     volumes:
-      - ./sql/jorani.sql:/docker-entrypoint-initdb.d/jorani.sql
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
