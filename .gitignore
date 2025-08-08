@@ -25,3 +25,6 @@ application/temp/*
 /assets/css/app.css
 
 yarn-error.log
+/.env
+/backend/.env
+/frontend/.env
