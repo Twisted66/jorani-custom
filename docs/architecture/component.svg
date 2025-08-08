@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="424px" preserveAspectRatio="none" style="width:407px;height:424px;" version="1.1" viewBox="0 0 407 424" width="407px" zoomAndPan="magnify"><defs><filter height="300%" id="f1pbi2qgsblv61" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[c443f27d6b78fa62af7a839fd470270f]
+cluster Jorani Application--><polygon fill="#FFFFFF" filter="url(#f1pbi2qgsblv61)" points="22,24,164,24,171,46.2969,261,46.2969,261,337,22,337,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="171" y1="46.2969" y2="46.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="26" y="38.9951">Jorani Application</text><!--MD5=[0bf8cd403f6786843aacd56780369d39]
+entity Web Frontend--><rect fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="118" x="127" y="59"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="122" y="64"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="122" y="85.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="137" y="81.9951">Web Frontend</text><!--MD5=[3e16c5ebf4b4daacbb417a5459fd30c0]
+entity REST API--><rect fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="82" x="163" y="172"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="158" y="177"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="158" y="198.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="173" y="194.9951">REST API</text><!--MD5=[e3152162072024c50465e7b26cb20ed6]
+entity Scheduler--><rect fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="38" y="172"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="33" y="177"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="33" y="198.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="48" y="194.9951">Scheduler</text><!--MD5=[8bfb80753c48760b002098e2de51e924]
+entity Data Access Layer--><rect fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="67" y="285"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="62" y="290"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="62" y="311.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="126" x="77" y="307.9951">Data Access Layer</text><ellipse cx="140.0269" cy="398.5236" fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" rx="35.5269" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="117.0269" y="403.1721">MySQL</text><ellipse cx="337.0685" cy="303.0236" fill="#FEFECE" filter="url(#f1pbi2qgsblv61)" rx="59.5685" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="297.0685" y="307.6721">Mail Service</text><!--MD5=[4c40b57691affcf55c59ae8c23c86198]
+link Web Frontend to REST API--><path d="M188.81,95.34 C191.93,114.57 196.97,145.63 200.38,166.66 " fill="none" id="Web Frontend-&gt;REST API" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="201.21,171.78,203.7163,162.2554,200.4089,166.8446,195.8197,163.5372,201.21,171.78" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="198" y="138.0669">HTTP</text><!--MD5=[dd57a012eb342de9057860dca98290aa]
+link REST API to Data Access Layer--><path d="M194,208.34 C182.82,227.73 164.7,259.16 152.57,280.19 " fill="none" id="REST API-&gt;Data Access Layer" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="149.93,284.78,157.895,278.987,152.4307,280.4503,150.9674,274.9859,149.93,284.78" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="47" x="177" y="251.0669">queries</text><!--MD5=[ca8336923819ccb6237eae0be624d510]
+link Scheduler to Data Access Layer--><path d="M79.17,208.17 C77.05,221.57 76.08,240.33 83,255 C87.94,265.47 96.47,274.4 105.46,281.57 " fill="none" id="Scheduler-&gt;Data Access Layer" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="109.9,284.95,105.169,276.3118,105.9242,281.9181,100.3179,282.6732,109.9,284.95" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="66" x="84" y="251.0669">batch jobs</text><!--MD5=[c99f845419e7c3f4e6148012661befda]
+link Data Access Layer to MySQL--><path d="M140,321.15 C140,337.35 140,361.6 140,378.41 " fill="none" id="Data Access Layer-&gt;MySQL" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="140,383.8,144,374.8,140,378.8,136,374.8,140,383.8" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6b1b80c5499705ac9d560a472281e110]
+link REST API to Mail Service--><path d="M224.49,208.1 C249.7,229.14 292.22,264.62 317.14,285.42 " fill="none" id="REST API-&gt;Mail Service" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="321.28,288.88,316.9235,280.047,317.4377,285.6805,311.8043,286.1947,321.28,288.88" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[57e2fac11f5a120b0ca191b9cb85d054]
+@startuml
+package "Jorani Application" {
+  [Web Frontend]
+  [REST API]
+  [Scheduler]
+  [Data Access Layer]
+}
+
+[Web Frontend] - -> [REST API] : HTTP
+[REST API] - -> [Data Access Layer] : queries
+[Scheduler] - -> [Data Access Layer] : batch jobs
+[Data Access Layer] - -> (MySQL)
+[REST API] - -> (Mail Service)
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.2+13-58
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

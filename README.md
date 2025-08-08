@@ -32,6 +32,10 @@ Use bbalet / bbalet for login / password.
 * OAuth2 Authentication (only Google+ at the moment).
 * Available in English, French, Spanish, Italian, Portuguese, German, Dutch, Russian, Ukrainian, Persian, Khmer, Vietnamese, Czech, Arabic and Turkish.
 
+## Architecture
+
+See the [system context](docs/architecture/system-context.svg), [component](docs/architecture/component.svg), and [data flow](docs/architecture/data-flow.svg) diagrams for an overview of Jorani.
+
 ## Installation
 
 **IMPORTANT:** If you want to install Jorani in production, please download it from the Release tab.

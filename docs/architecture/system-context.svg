@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="388px" preserveAspectRatio="none" style="width:259px;height:388px;" version="1.1" viewBox="0 0 259 388" width="259px" zoomAndPan="magnify"><defs><filter height="300%" id="ftawitoyuw0cn" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[cade383c679c4100475c230cbe0e5423]
+entity Employee--><ellipse cx="40" cy="17.5" fill="#FEFECE" filter="url(#ftawitoyuw0cn)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M40,25.5 L40,52.5 M27,33.5 L53,33.5 M40,52.5 L27,67.5 M40,52.5 L53,67.5 " fill="none" filter="url(#ftawitoyuw0cn)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="6" y="85.9951">Employee</text><!--MD5=[327d8b0cc9017ef0d2f4054fa6547e20]
+entity Manager--><ellipse cx="139" cy="17.5" fill="#FEFECE" filter="url(#ftawitoyuw0cn)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M139,25.5 L139,52.5 M126,33.5 L152,33.5 M139,52.5 L126,67.5 M139,52.5 L152,67.5 " fill="none" filter="url(#ftawitoyuw0cn)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="109" y="85.9951">Manager</text><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><ellipse cx="226" cy="17.5" fill="#FEFECE" filter="url(#ftawitoyuw0cn)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M226,25.5 L226,52.5 M213,33.5 L239,33.5 M226,52.5 L213,67.5 M226,52.5 L239,67.5 " fill="none" filter="url(#ftawitoyuw0cn)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="204.5" y="85.9951">Admin</text><!--MD5=[cda190aec85529d7ef2e1486252d4310]
+entity WebUI--><rect fill="#FEFECE" filter="url(#ftawitoyuw0cn)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="105" y="149"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="100" y="154"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="100" y="175.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="115" y="171.9951">Web UI</text><!--MD5=[4d17ebef18975ec1b63c6031f196eef0]
+entity Api--><rect fill="#FEFECE" filter="url(#ftawitoyuw0cn)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="41" x="118.5" y="245"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="250"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="271.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="128.5" y="267.9951">API</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><rect fill="#FEFECE" filter="url(#ftawitoyuw0cn)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="41" x="118.5" y="341"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="346"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="113.5" y="367.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="128.5" y="363.9951">DB</text><!--MD5=[826cb886c5c8ed5a5d2ce74f081c278e]
+link Employee to WebUI--><path d="M73.79,89.27 C91.05,109.57 111.14,133.21 124.41,148.83 " fill="none" id="Employee-WebUI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[caf8d90dfe0cd8dfac4e0240bbf970eb]
+link Manager to WebUI--><path d="M139,89.27 C139,109.57 139,133.21 139,148.83 " fill="none" id="Manager-WebUI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8d22dd44111341ef008d3e5dff866e51]
+link Admin to WebUI--><path d="M204.49,78.3 C187.99,100.4 165.75,130.18 151.9,148.72 " fill="none" id="Admin-WebUI" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[12e46f4840f8ad3da96e80ab6cd6bfcc]
+link WebUI to Api--><path d="M139,185.24 C139,200.48 139,222.81 139,239.46 " fill="none" id="WebUI-&gt;Api" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="139,244.87,143,235.87,139,239.87,135,235.87,139,244.87" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9ea5767550fd0b5d7f279922c464a299]
+link Api to DB--><path d="M139,281.24 C139,296.48 139,318.81 139,335.46 " fill="none" id="Api-&gt;DB" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="139,340.87,143,331.87,139,335.87,135,331.87,139,340.87" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9c911a78955f38aeac7201c94d002916]
+@startuml
+actor Employee
+actor Manager
+actor Admin
+
+component "Web UI" as WebUI
+component "API" as Api
+component "DB" as DB
+
+Employee - - WebUI
+Manager - - WebUI
+Admin - - WebUI
+WebUI ..> Api
+Api ..> DB
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.2+13-58
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
