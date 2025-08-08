@@ -1,0 +1,39 @@
+name: Frontend Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+          cache-dependency-path: yarn.lock
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build assets
+        run: npm run build
+
+      - name: Build Docker image
+        run: docker build -t ${{ github.repository }}-frontend:${{ github.sha }} .
+
+      - name: Push image to registry
+        env:
+          REGISTRY: ghcr.io
+          IMAGE_NAME: ${{ github.repository }}-frontend
+        run: |
+          echo ${{ secrets.GITHUB_TOKEN }} | docker login $REGISTRY -u ${{ github.actor }} --password-stdin
+          docker tag $IMAGE_NAME:${{ github.sha }} $REGISTRY/$IMAGE_NAME:${{ github.sha }}
+          docker push $REGISTRY/$IMAGE_NAME:${{ github.sha }}
