@@ -1,0 +1,14 @@
+@startuml
+' Data Flow for a Leave Request
+actor Employee
+participant "Web UI" as UI
+participant "Jorani API" as API
+database DB
+participant "Mail Service" as Mail
+
+Employee -> UI : submit leave form
+UI -> API : POST /leaves
+API -> DB : insert request
+API -> Mail : notify manager
+API --> UI : confirmation
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+actor Employee
+actor Manager
+actor Admin
+
+component "Web UI" as WebUI
+component "API" as Api
+component "DB" as DB
+
+Employee -- WebUI
+Manager -- WebUI
+Admin -- WebUI
+WebUI ..> Api
+Api ..> DB
+@enduml

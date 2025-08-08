@@ -1,0 +1,15 @@
+@startuml
+' Component Diagram for Jorani
+package "Jorani Application" {
+  [Web Frontend]
+  [REST API]
+  [Scheduler]
+  [Data Access Layer]
+}
+
+[Web Frontend] --> [REST API] : HTTP
+[REST API] --> [Data Access Layer] : queries
+[Scheduler] --> [Data Access Layer] : batch jobs
+[Data Access Layer] --> (MySQL)
+[REST API] --> (Mail Service)
+@enduml
