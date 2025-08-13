@@ -53,6 +53,21 @@ See the [system context](docs/architecture/system-context.svg), [component](docs
 * Check your installation with the <code>requirements.php</code> page at the root of your installation (e.g. http://localhost/lms/requirements.php).
 * The default user is *bbalet* and password is *bbalet*.
 
+
+## Docker setup
+
+This repository includes a Docker environment for running the application with a PHP/Laravel backend, a Node/Vite frontend and a MySQL database.
+
+1. Copy `backend/.env.example` to `backend/.env` and adjust the variables.
+2. Copy `frontend/.env.example` to `frontend/.env` and update the API endpoint if needed.
+3. Build and start the services:
+
+   ```bash
+   docker compose up --build
+   ```
+
+The backend will be available on http://localhost:8000 and the frontend on http://localhost:3000.
+
 ## Contribute
 
 * Help us to translate the software in your language https://www.transifex.com/projects/p/jorani
